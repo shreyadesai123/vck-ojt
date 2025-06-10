@@ -37,13 +37,13 @@ const Home = () => {
                 <figure className="image">
                     <figcaption>Campus Life & Facilities</figcaption>
                     <section className="img">
-                        <img src="/images/students-studying-DbLGuwF_.jpeg" />
-                        <img src="/images/campus-life-Crkero7B.jpg" id="img2" />
+                        <img src="public\images\students-studying-DbLGuwF_.jpeg" />
+                        <img src="public\images\campus-life-Crkero7B.jpg" id="img2" />
                     </section>
                 </figure>
                 <section className="bottom">
-                    <h4>Ready to start your journey with us?</h4>
-                    <button>Apply Now!</button>
+                    <h4>Ready to explore our courses?</h4>
+                    <button><Link to="/coursespage"><b id="bold">Explore Courses</b></Link></button>
                 </section>
             </div>
             <div><Footer /></div>
