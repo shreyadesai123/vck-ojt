@@ -16,13 +16,8 @@ const CoursesPage = () => {
                     <p>Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.</p>
                 </section>
                 <section className="video">
-<<<<<<< HEAD
                     <video controls>
                         <source src="/videos/college-tour-FAmcnyfF.mp4" type="video/mp4"></source>
-=======
-                    <video controls  >
-                        <source src="public\videos\college-tour-FAmcnyfF.mp4" type="video/mp4"></source>
->>>>>>> 6d69c5f (second commit)
                     </video>
                 </section>
                 <section className="c-text">
