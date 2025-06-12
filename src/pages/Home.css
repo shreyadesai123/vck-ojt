@@ -41,11 +41,7 @@ body {
 }
 
 .hero-section {
-<<<<<<< HEAD
     background-image: url(/images/darkened-image.png);
-=======
-    background-image: url(public/images/darkened-image.png);
->>>>>>> 6d69c5f (second commit)
     background-color: white;
     width: 100%;
     height: 80%;
