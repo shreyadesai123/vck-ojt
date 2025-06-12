@@ -42,6 +42,21 @@ body {
     font-size: 16.5px;
     padding: 10px;
 }
+.animated{
+    animation: slideUp 1s ease-out;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+@keyframes slideUp {
+    from {
+      transform: translatey(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translatey(0);
+      opacity: 1;
+    }
+  }
 .a-text{
     display: flex;
     flex-direction: column;
