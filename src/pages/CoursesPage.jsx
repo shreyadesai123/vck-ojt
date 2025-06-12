@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../components/Header/Header"
-import { Link } from "react-router-dom";
 import './Courses.css'
 import "../components/Header/Header.css";
 import "../components/Footer/Footer.css";
