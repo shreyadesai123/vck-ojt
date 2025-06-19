@@ -14,11 +14,17 @@ const CoursesPage = () => {
                     <h1>Our Academic Programs</h1>
                     <p>Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.</p>
                 </section>
-                <section className="video">
-                    <video controls>
-                        <source src="/videos/college-tour-FAmcnyfF.mp4" type="video/mp4"></source>
+                <div className="video-container text-center mt-4">
+                    <video width="100%" height="auto" controls>
+                        <source src="/videos/college-tour-FAmcnyfF.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
                     </video>
-                </section>
+                    <div className="bg-black">
+                        <p className="video-caption fst-italic mt-2">
+                            Get a glimpse of the vibrant academic and social life at Vivekanand College
+                        </p>
+                    </div>
+                </div>
                 <section className="c-text">
                     <h2>Undergraduate Programs (UG)</h2>
                     <ul>
@@ -76,7 +82,7 @@ const CoursesPage = () => {
                         <li>Master of Arts (M.A.) (2 years)</li>
                     </ul>
                 </section>
-                <section className="table">
+                <section className="table container">
                     <h2>Program Details & Fee Structure (Annual)
                     </h2>
                     <table>

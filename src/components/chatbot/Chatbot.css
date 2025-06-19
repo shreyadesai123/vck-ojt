@@ -378,8 +378,8 @@
   color: white;
   border: none;
   border-radius: 50%; /* Make it round */
-  width: 10px; /* Size of the button */
-  height: 50px; /* Size of the button */
+  width: 70px; /* Size of the button */
+  height: 100px; /* Size of the button */
   font-size: 2.5em; /* Bigger chat bubble */
   display: flex;
   justify-content: center;

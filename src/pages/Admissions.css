@@ -59,6 +59,12 @@ table{
     width: 80%;
     margin-left: 50px;
     margin-top: 20px;
+    border: 1;
+}
+@media (max-width: 600px){
+  table{
+    margin: 0%;
+  }
 }
 .list{
     display: flex;

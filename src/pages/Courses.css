@@ -27,58 +27,68 @@ body {
     top: 0;
 }
 
-.head{
+.head {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
 }
-.head h1{
+
+.head h1 {
     font-size: 38.8px;
     margin-top: 10px;
 }
-.c-text{
+
+.c-text {
     padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
 }
-.c-text h2{
+
+.c-text h2 {
     padding: 10px;
     font-size: 25px;
 }
-.c-text ul{
+
+.c-text ul {
     margin-left: 50px;
     font-size: 17.5px;
     padding: 10px;
 }
-.c-text li{
+
+.c-text li {
     padding: 0%;
     margin: 0%;
 }
-.video video{
+
+.video video {
     height: 500px;
     width: 90%;
     margin-left: 45px;
 }
-.c-text2{
+
+.c-text2 {
     padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
 }
-.c-text2 h2{
+
+.c-text2 h2 {
     padding: 10px;
     font-size: 25px;
 }
-.c-text2 ul{
+
+.c-text2 ul {
     margin-left: 50px;
     font-size: 17.5px;
     padding: 10px;
 }
-.c-text3{
+
+.c-text3 {
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -86,62 +96,130 @@ body {
     width: 100%;
     margin-left: 20px;
 }
-.c-text3 h2{
+
+.c-text3 h2 {
     padding: 10px;
     font-size: 25px;
 }
-.c-text3 ul{
+
+.c-text3 ul {
     margin-left: 50px;
     font-size: 17.5px;
     padding: 10px;
 }
-.c-bottom{
+
+.c-bottom {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.c-bottom h4{
+
+.c-bottom h4 {
     padding: 20px;
     margin-top: 20px;
 }
-.c-bottom button{
-    padding: 5px ,5px ,5px ,5px;
+
+.c-bottom button {
+    padding: 5px, 5px, 5px, 5px;
     margin-bottom: 20px;
     background-color: rgb(22, 169, 22);
     color: white;
     font-weight: bold;
     border-radius: 5px;
 }
-tbody,thead,tr,th,td{
+
+tbody,
+thead,
+tr,
+th,
+td {
     border: 0.5px solid gray;
     padding: 10px;
-<<<<<<< HEAD
 }
-#bold{
+
+#bold {
     color: white;
 }
-=======
-    border-collapse: collapse;
+
+.video-caption {
+    font-size: 16px;
+    color: #555;
 }
-.table table{
+
+.video-container {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.bg-black {
+    background-color: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-black p {
+    background-color: whitesmoke;
+    color: black;
+    height: 40px;
+    width: 98%;
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+}
+
+@media (max-width: 500px) {
+    .bg-black p {
+        background-color: whitesmoke;
+        color: black;
+        height: 50px;
+        width: 98%;
+        font-style: italic;
+        text-align: left;
+        padding: 0px;
+    }
+}
+@media (max-width: 700px){
+    .bg-black p {
+        text-align: left;
+        padding: 0px;
+        height: 50px;
+    }
+}
+.table table {
     margin-left: 20px;
     border-collapse: collapse;
     border-color: gray;
+    height: 400px;
+    width: 700px;
 }
-.table h2{
+
+.table h2 {
     font-size: 25px;
     margin-left: 10px;
 }
+
 .table {
     width: 100%;
 }
-#row-h{
+@media (max-width: 700px) {
+    .table table{
+        width: 50px;
+        margin: 0%;
+        height: 200px;
+        padding: 0%;
+    }
+}
+
+#row-h {
     background-color: rgba(224, 219, 219, 0.707);
 }
-#row2{
+
+#row2 {
     background-color: rgb(240, 238, 238);
 }
-#bold{
+
+#bold {
     color: white;
 }
->>>>>>> 6d69c5f (second commit)
